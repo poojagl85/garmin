@@ -1,0 +1,17 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("./HelveticaNeue.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("./Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("./Open_Sans/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url("./Roboto_Condensed/RobotoCondensed-Bold.ttf");
+}
