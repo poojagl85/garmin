@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  height: 100vh;
+}
+.download {
+  margin: 25vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  width: 50%;
+  height: 20px;
+}
+#loader-inside {
+  background-color: blue;
+  animation: loader 18s;
+  height: 100%;
+  border-radius: 5px;
+  width: 80%;
+}
+.error {
+  text-align: center;
+  height: 200px;
+  color: white;
+  width: 50vh;
+  background-color: tomato;
+  margin: 10vh auto;
+  font-family: Roboto;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-size: 18px;
+  display: none;
+}
+
+@keyframes loader {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
